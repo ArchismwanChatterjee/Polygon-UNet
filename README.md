@@ -8,6 +8,8 @@ Model Link : https://drive.google.com/drive/folders/1CL79mI8K-kAomEmfi0zaOD13Vbn
 
 Google Colab Link : https://colab.research.google.com/drive/1xuvb3bIPDADn7hahDqoraMaLmT22PffI?usp=sharing
 
+Insights Report Link : https://docs.google.com/document/d/1T3U82WREPT_NSBegmrrYOgEDcPQ-jf-950Yjd0aW-g8/edit?usp=sharing
+
 ## **Problem**
 
 Train a **UNet from scratch** to color a polygon image based on a given color name.
@@ -153,4 +155,5 @@ For Sample Validation File Octagon.png :
 * `output.png` : Visualizes  Ground truth comparison
 * `output2.png` : Visualizes multiple color inference for the same polygon
 * `unet_polygon_color.pth` : The UNet Model
+
 
