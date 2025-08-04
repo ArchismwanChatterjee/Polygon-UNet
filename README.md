@@ -101,8 +101,6 @@ Train a **UNet from scratch** to color a polygon image based on a given color na
 ```
 
 
-Here's the updated training dynamics summary based on the new plot:
-
 ---
 
 ## **Training Dynamics**
@@ -155,5 +153,6 @@ For Sample Validation File Octagon.png :
 * `output.png` : Visualizes  Ground truth comparison
 * `output2.png` : Visualizes multiple color inference for the same polygon
 * `unet_polygon_color.pth` : The UNet Model
+
 
 
