@@ -131,8 +131,13 @@ For Sample Validation File Octagon.png :
 
 * **PSNR(Peak Signal to Noise Ratio)**: 14.08 dB
 * **SSIM(Structural Similarity Index)**: 0.8726
+* Ground truth comparison
+    <img width="1182" height="384" alt="output" src="https://github.com/user-attachments/assets/7ef12051-eafb-4e0a-a8f4-cad4a88ad53a" />
+* Multiple color inference for the same polygon
+   <img width="1182" height="152" alt="output2" src="https://github.com/user-attachments/assets/2a25ff9d-3bb9-484a-ae8d-d481d89a5467" />
 
-## ✅ **Key Learnings**
+## ✅ **Key Learnings** 
+
 
 * Conditional UNet can handle **image + text conditioning** effectively even with simple one-hot encoding.
 * **L1 Loss** outperforms MSE for preserving sharp edges.
@@ -148,3 +153,4 @@ For Sample Validation File Octagon.png :
 * `output.png` : Visualizes  Ground truth comparison
 * `output2.png` : Visualizes multiple color inference for the same polygon
 * `unet_polygon_color.pth` : The UNet Model
+
